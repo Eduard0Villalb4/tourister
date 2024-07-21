@@ -532,7 +532,7 @@ const Landing = () => {
         >
           <a
             className="w-fit px-4 py-1 bg-white hover:cursor-pointer text-black font-medium rounded-md flex items-center justify-center text-lg"
-            href="https://play.google.com/store/apps/details?id=com.starcode.modoguerra"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
@@ -575,7 +575,7 @@ const Landing = () => {
               className="mr-6"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.tiktok.com/@www.modoguerra.app"
+              href="https://www.tiktok.com/"
             >
               <img
                 className=" h-[28px] w-[28px]"
@@ -587,7 +587,7 @@ const Landing = () => {
               className="mr-6"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.instagram.com/modoguerra.app/"
+              href="https://www.instagram.com/"
             >
               <img
                 className=" h-[28px] w-[28px]"
@@ -595,24 +595,8 @@ const Landing = () => {
                 alt="instagram"
               />
             </a>
-            <a
-              className="mr-6"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.patreon.com/user?u=90860109"
-            >
-              <img
-                className=" h-[28px] w-[28px]"
-                src="./assets/patreon.svg"
-                alt="patreon"
-              />
-            </a>
           </div>
-          <a className="mb-2 lg:mb-0 text-center" href="#">
-            Support: eduard0.villalb4@gmail.com
-          </a>
-          <p className="text-center">Current version of the application: 1.0.9</p>
-          <p className="text-center">Copyright 2023, All Rights Reserved by EdudevWeb</p>
+          <p className="text-center">Copyright 2023, All Rights Reserved by Tourister</p>
         </div>
       </footer>
     </div>
