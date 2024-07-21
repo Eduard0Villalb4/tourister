@@ -9,7 +9,7 @@ const Landing = () => {
 
 
   return (
-    <div className="overflow-y-scroll overflow-x-hidden h-full bg-white dark:bg-[#FF7F50] dark:text-gray-100">
+    <div className="overflow-y-scroll overflow-x-hidden h-full bg-white  ">
       <div className="hidden md:block transition -rotate-6 absolute -left-1 -top-48 -z-0">
           <img
             style={{ opacity: 0.05 }}
@@ -21,7 +21,7 @@ const Landing = () => {
         </div>
       <header className="p-4 lg:py-2 lg:px-0 container mx-auto grid lg:flex lg:justify-between grid-cols-2 text-slate-700 z-20">
         <nav className="flex items-center">
-          <h1 className="w-auto mr-16 font-semibold text-xl text-black dark:text-white flex items-center justify-center">
+          <h1 className="w-auto mr-16 font-semibold text-xl text-black  flex items-center justify-center">
             {/* <Icon className="!h-[30px] !w-[30px] !max-w-none mr-2">swords</Icon> */}
             Tourister
           </h1>
@@ -29,7 +29,7 @@ const Landing = () => {
           <ul className="lg:flex hidden">
             <li className="mr-8">
               <a
-                className="font-medium text-slate-800 dark:text-slate-200 hover:text-slate-100"
+                className="font-medium text-slate-800  hover:text-slate-100"
                 href="#aboutSection"
               >
               </a>
@@ -37,7 +37,7 @@ const Landing = () => {
 
             <li className="mr-8">
               <a
-                className="font-medium text-slate-800 dark:text-slate-200 hover:text-slate-100"
+                className="font-medium text-slate-800  hover:text-slate-100"
                 href="#downloadSection"
               >
                 download
@@ -45,7 +45,7 @@ const Landing = () => {
             </li>
             <li className="mr-8">
               <a
-                className="font-medium text-slate-800 dark:text-slate-200 hover:text-slate-100"
+                className="font-medium text-slate-800  hover:text-slate-100"
                 href="#contactSection"
               >
                 contact
@@ -57,7 +57,7 @@ const Landing = () => {
           <button
             
             onClick={() => navigate('/login')}
-            className="px-4 py-3 bg-[#FF7F50] dark:bg-slate-900 hover:bg-[#FF7F50] hover:cursor-pointer text-white font-medium rounded-md mx-1 z-20"
+            className="px-4 py-3 bg-[#FF7F50]  hover:bg-[#FF7F50] hover:cursor-pointer text-white font-medium rounded-md mx-1 z-20"
           >
             Get Started
           </button>
@@ -79,14 +79,14 @@ const Landing = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              className="w-full lg:w-max px-4 py-3 bg-[#FF7F50] dark:bg-slate-900 hover:bg-[#FF7F50] hover:cursor-pointer text-white font-medium rounded-md lg:mr-8 mb-4 lg:mb-0"
+              className="w-full lg:w-max px-4 py-3 bg-[#FF7F50]  hover:bg-[#FF7F50] hover:cursor-pointer text-white font-medium rounded-md lg:mr-8 mb-4 lg:mb-0"
             >
               I want to go sightseeing
             </a>
             <a
               target="_blank"
               rel="noreferrer"
-              className="w-full lg:w-max px-4 py-3 bg-[#FF7F50] dark:bg-slate-900 hover:bg-[#FF7F50] hover:cursor-pointer text-white font-medium rounded-md lg:mr-8 mb-4 lg:mb-0"
+              className="w-full lg:w-max px-4 py-3 bg-[#FF7F50]  hover:bg-[#FF7F50] hover:cursor-pointer text-white font-medium rounded-md lg:mr-8 mb-4 lg:mb-0"
             >
               I want to be a guide
             </a>
@@ -110,13 +110,13 @@ const Landing = () => {
             <div className='flex-1'>
               <div className=" relative aspect-[366/729] mx-auto max-w-[220px]">
                 <div className="shadow-xl absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)]"></div>
-                <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50] dark:bg-slate-900 pt-[calc(23/318*100%)]">
+                <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50]  pt-[calc(23/318*100%)]">
                   <div className="flex flex-col">
                     {/* <!-- content here --> */}
                     <div className="w-full h-full">
                       {/* <NewVersionBanner image="./assets/auth-image.jpeg" /> */}
                     </div>
-                    <div className="hidden bg-[black] dark:bg-slate-900 w-full h-full">
+                    <div className="hidden bg-[black]  w-full h-full">
                       <div className="flex items-center">
                         <img
                           className="w-8 mt-5 mx-auto text-white"
@@ -220,13 +220,13 @@ const Landing = () => {
             <div className='flex-1 pt-40'>
               <div className=" relative aspect-[366/729] mx-auto max-w-[220px]">
                 <div className="shadow-xl absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)]"></div>
-                <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50] dark:bg-slate-900 pt-[calc(23/318*100%)]">
+                <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50]  pt-[calc(23/318*100%)]">
                   <div className="flex flex-col">
                     {/* <!-- content here --> */}
                     <div className="w-full h-full">
                       {/* <NewVersionBanner image="./assets/auth-image.jpeg" /> */}
                     </div>
-                    <div className="hidden bg-[black] dark:bg-slate-900 w-full h-full">
+                    <div className="hidden bg-[black]  w-full h-full">
                       <div className="flex items-center">
                         <img
                           className="w-8 mt-5 mx-auto text-white"
@@ -330,15 +330,15 @@ const Landing = () => {
           </div>
         </div>
       </section>
-      <section className="py-8 px-4 md:px-8 lg:py-16 2xl:py-40 2xl:px-60 2xl:py-20 mx-auto grid gap-y-4 gap-x-8 grid-cols-11 relative bg-gray-100 dark:bg-slate-900">
+      <section className="py-8 px-4 md:px-8 lg:py-16 2xl:py-40 2xl:px-60 2xl:py-20 mx-auto grid gap-y-4 gap-x-8 grid-cols-11 relative bg-gray-100 ">
         <h2 className="text-3xl md:text-4xl font-medium text-center col-span-11">
           title
         </h2>
         <p className="max-w-lg mx-auto text-center col-span-11 leadingRelaxed mb-8">
           subtitle
         </p>
-        <div className="bg-white dark:bg-[#FF7F50] border border-slate-200 rounded-md lg:col-span-3 col-span-11 lg:col-start-2 p-8 text-center">
-          <div className="bg-[#FF7F50] dark:bg-slate-900 text-white p-4 rounded-md w-fit">
+        <div className="bg-white  border border-slate-200 rounded-md lg:col-span-3 col-span-11 lg:col-start-2 p-8 text-center">
+          <div className="bg-[#FF7F50]  text-white p-4 rounded-md w-fit">
             <Icon color="white" className="fixed-white">
               calendar_month
             </Icon>
@@ -348,8 +348,8 @@ const Landing = () => {
           </h3>
           <small>subtitle</small>
         </div>
-        <div className="bg-white dark:bg-[#FF7F50] border border-slate-200 rounded-md lg:col-span-3 col-span-11 p-8 text-center">
-          <div className="bg-[#FF7F50] dark:bg-slate-900 text-white p-4 rounded-md w-fit">
+        <div className="bg-white  border border-slate-200 rounded-md lg:col-span-3 col-span-11 p-8 text-center">
+          <div className="bg-[#FF7F50]  text-white p-4 rounded-md w-fit">
             <Icon color="white" className="fixed-white">
               groups
             </Icon>
@@ -359,8 +359,8 @@ const Landing = () => {
           </h3>
           <small>subtitle</small>
         </div>
-        <div className="bg-white dark:bg-[#FF7F50] border border-slate-200 rounded-md lg:col-span-3 col-span-11 p-8 text-center">
-          <div className="bg-[#FF7F50] dark:bg-slate-900 text-white p-4 rounded-md w-fit">
+        <div className="bg-white  border border-slate-200 rounded-md lg:col-span-3 col-span-11 p-8 text-center">
+          <div className="bg-[#FF7F50]  text-white p-4 rounded-md w-fit">
             <Icon color="white" className="fixed-white">
               dashboard_customize
             </Icon>
@@ -382,7 +382,7 @@ const Landing = () => {
             />
             <div className=" relative aspect-[366/729] mx-auto max-w-[420px]">
               <div className="shadow-xl absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)]"></div>
-              <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50] dark:bg-slate-900 pt-[calc(23/318*100%)]">
+              <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50]  pt-[calc(23/318*100%)]">
                 {/* <NewVersionBanner image="./assets/wars-image.jpeg" /> */}
               </div>
               <svg
@@ -417,7 +417,7 @@ const Landing = () => {
             />
             <div className=" relative aspect-[366/729] mx-auto max-w-[420px]">
               <div className="shadow-xl absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)]"></div>
-              <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50] dark:bg-slate-900 pt-[calc(23/318*100%)]">
+              <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50]  pt-[calc(23/318*100%)]">
                 {/* <NewVersionBanner image="./assets/war-image.jpeg" /> */}
               </div>
               <svg
@@ -471,7 +471,7 @@ const Landing = () => {
             />
             <div className=" relative aspect-[366/729] mx-auto max-w-[420px]">
               <div className="shadow-xl absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)]"></div>
-              <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50] dark:bg-slate-900 pt-[calc(23/318*100%)]">
+              <div className="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-[#FF7F50]  pt-[calc(23/318*100%)]">
                 {/* <NewVersionBanner image="./assets/home-image.jpeg" /> */}
               </div>
               <svg
@@ -519,7 +519,7 @@ const Landing = () => {
       </section>
       <section
         id="downloadSection"
-        className={` py-20 px-4 flex bg-[#FF7F50] dark:bg-slate-900 relative text-slate-100`}
+        className={` py-20 px-4 flex bg-[#FF7F50]  relative text-slate-100`}
       >
         <div className="flex-1">
           <h3 className="text-3xl Rlg:text-4xl font-medium mb-4">
