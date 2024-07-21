@@ -549,7 +549,7 @@ const Landing = () => {
       <footer className="py-8 px-4 md:px-8 lg:py-16 2xl:px-60 mx-auto relative">
         <div className="grid grid-cols-12 gap-8 text-slate-500 py-16">
           <div className="col-span-4 xl:col-span-4">
-            <Icon>swords</Icon>
+            <span>Tourister</span>
             <ul>
               <li className="py-3">
                 <a href="#aboutSection">about</a>
