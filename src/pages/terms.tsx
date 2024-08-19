@@ -1,9 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import Icon from '../components/Icon';
-import { Carousel } from 'react-responsive-carousel';
-
-
-
 
 const TermsAndCondition = () => {
   const navigate = useNavigate();

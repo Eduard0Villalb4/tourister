@@ -1,9 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import Icon from '../components/Icon';
 import { Carousel } from 'react-responsive-carousel';
-
-
-
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -347,22 +343,50 @@ const Landing = () => {
           <p className="">Install the app that suits your needs, available for both iOS and Android. If you're a tourist, download the app specifically designed to help you discover new adventures and local activities. If you're a tourist guide, install the app that makes it easy to promote your services and connect with potential clients. With a quick and simple installation process, you'll be ready to start in minutes, whether you're a tourist or a guide.</p>
         </div>
         <div
-          className={`flex-1 flex justify-end space-x-3`}
+          className={`flex-1 flex justify-end items-end space-x-3`}
         >
-          <a
-            className="h-16 w-fit px-6 bg-white hover:cursor-pointer text-black font-medium rounded-md flex items-center justify-center text-lg"
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
-            App Store
-          </a>
-          <button
-            
-            className="h-16 w-fit px-6 bg-white hover:cursor-pointer text-black font-medium rounded-md flex items-center justify-center text-lg"
-          >
-            Google play
-          </button>
+          <div>
+            <h3>Touristers App</h3>
+            <div>
+              <a
+                className=""
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className='h-20 p-3' src="./assets/images/available-on-the-app-store-logo.png" alt="" />
+              </a>
+              <a
+                className=""
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className='h-20' src="./assets/images/google-play-badge.webp" alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3>Touristees App</h3>
+            <div>
+              <a
+                className=""
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className='h-20 p-3' src="./assets/images/available-on-the-app-store-logo.png" alt="" />
+              </a>
+              <a
+                className=""
+                href=""
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className='h-20' src="./assets/images/google-play-badge.webp" alt="" />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       <footer className="py-8 px-4 md:px-8 lg:py-16 2xl:px-60 mx-auto relative">
